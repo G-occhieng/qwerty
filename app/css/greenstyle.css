@@ -1,0 +1,893 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppings',sans-serif;
+  }
+
+  
+  :root {
+    --main-color: #4ef973;
+    --main-color: hsl(140, 95%, 35%);
+    --black: #000;
+    --white: #ebdfdf;
+    --padding: 10px 20px;
+  }
+
+  section {
+    height: 100vh;
+    width: 100%;
+  }
+  header{
+    height: 6rem;
+    width: 100%;
+    background-color: white;
+
+  }
+
+  header nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+      
+  }
+  header nav div ul{
+    display:flex;
+    gap: 3.5rem;
+    align-items: center;
+    list-style: none;
+    margin: 250px ; 
+    position: top; 
+  }
+
+.port{
+  color: black;
+
+}
+.folio{
+  background-color: green;
+  color: white; 
+}
+
+
+.welcome{
+  background-color: aliceblue;
+  width: 100px;
+  height: 30px;
+  color: green;
+  margin-top: 5rem;
+  font-size: 15px;
+  padding: 10px 60px;
+  margin-left: 60px;
+}
+.btn-pri{
+  padding: var(--padding);
+  border: none;
+  outline: none;
+  background-color:green;
+  color: var(--white);
+  font-size: 1rem;
+  position: relative;
+  left: 250px;
+}
+.btn-pri:hover{
+  background-color: var(--white);
+  color: var(--main-color);
+  transition: all ease-in-out, 0.5s;
+  border: 1px solid var(--main-color);
+}
+.hero .image-side{
+  display: grid;
+  grid-template-columns: 2fr 3fr 4fr;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
+  border-radius: 50rem;
+  height: 40rem;
+  width: 25rem;
+  -webkit-transform: rotate(50deg);
+  position: relative; right: -940px; bottom: 400px;
+  border: 22px solid white;
+  
+
+ 
+
+
+}
+
+.hero .image-side .circle{
+height: 20rem;
+width: 20rem;
+background-color: #ebdfdf;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+-webkit-transform: rotate(300deg);
+ position: relative; right: -50px; top: 125px;
+ border: 22px solid white;
+ position: relative;
+ bottom: 200px;
+ right:-15px;
+
+  }
+
+  .hero .image-side .circle img{
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2rem solid white;    
+  }
+  
+
+.hire{
+  position: relative;
+  left: 150px;
+  bottom: 5px;
+  z-index: 10;
+  background-color: var(--white);
+  color: green;
+  padding: var(--padding);
+  border-radius: 10px;
+}
+.facebook{
+  position: relative;
+  top: 150px;
+}
+.twitter{
+  position: relative;
+  top: 150px;
+  background-color: green;
+  height: 1.5rem;
+  width: 3rem;
+  border-radius: 1rem;
+  color: white;
+  margin-right: 10px;
+  
+}
+.dribble{
+  position: relative;
+  top: 150px;
+}
+.linkedin{
+  position: relative;
+  top: 150px;
+}
+
+.web{
+  position: relative;
+  left: 250px;
+}
+.george{
+  position: relative;
+  left: 250px;
+}
+.Wel{
+  position: relative;
+  left: 250px;
+  color: green;
+}
+
+.para{
+  position: relative;
+  left: 250px;
+}
+.Explore{
+  padding: var(--padding);
+  border: solid;
+  background-color: white;
+  color: #000;
+  position: relative;
+  left: 250px;
+}
+.sacco{
+height: 200px;
+width: 200px;
+border-radius: 80%;
+border: solid 15px;
+display: inline-block;
+border-color: #4ef973;
+position: relative;
+right: -20px;
+z-index: 10;
+ 
+}
+.ardin{
+  position: relative;
+  right:  -60px;
+  top: -90px;
+}
+.about{
+  position: relative;
+  right: -700px;
+  bottom: 950px;
+  background-color: var(--white);
+  color: green;
+  width: 80px;
+}
+.project{
+  position: relative;
+  right: -700px;
+  bottom: 900px ;
+}
+.ux{
+  position: relative;
+  right: -700px;
+  bottom: 900px;
+}
+.cv{
+  position: relative;
+  right: -700px;
+  bottom: 900px;
+  background-color: green;
+  color: white;
+  height: 80px;
+  width: 200px;
+  align-items: center;
+  border-radius: 20px;
+
+}
+.cv:hover{
+  background-color: var(--white);
+  color: var(--main-color);
+  transition: all ease-in-out, 0.5s;
+  border: 1px solid var(--main-color);
+}
+.hom{
+  position: relative;
+  top: -700px;
+  right: -370px;
+  z-index:-10;
+
+}
+.web50{
+  height: 200px;
+  width: 100px;
+  border-radius: 10px;
+  stroke: none;
+  stroke-dasharray: 50;
+  stroke: hsl(from color h s l);
+
+}
+.circlewrapper{
+  display: grid;
+  grid-template-columns: repeat(1 160px);
+  grid-gap:80px ;
+  margin-top:100px ;
+  margin-left: 50px;
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  border-radius:50% ;
+}
+.progress{
+  display: flex;
+  width: 50px;
+  height: 60px;
+  border-radius: 10px;
+  inline-size: auto;
+}
+.icons{ 
+  position: fixed;
+}
+
+.cons{
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  margin: 180px;
+}
+.des{
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  width: 160px;
+  background:
+      radial-gradient(closest-side, rgb(255, 255, 255) 94%,  transparent 80% 100%),
+      conic-gradient(green 50%, rgb(252,251,251) 0); 
+}
+.dev{
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  width: 160px;
+  background:
+      radial-gradient(closest-side, rgb(255, 255, 255) 94%,  transparent 80% 100%),
+      conic-gradient(green 75%, rgb(252,251,251) 0); 
+}
+.des1{
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  width: 160px;
+  background:
+      radial-gradient(closest-side, rgb(255, 255, 255) 94%,  transparent 80% 100%),
+      conic-gradient(green 20%, rgb(252,251,251) 0); 
+}
+.des2{
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  width: 160px;
+  background:
+      radial-gradient(closest-side, rgb(255, 255, 255) 94%,  transparent 80% 100%),
+      conic-gradient(green 50%, rgb(252,251,251) 0); 
+     
+}
+.chwani{
+  position: relative;
+  top: 45px;
+}
+.sign{
+  position: relative;
+  top: 55px;
+}
+
+
+.sabini{
+  position: relative;
+  top: 45px;
+}
+.develop{
+  position: relative;
+  top: 55px;
+}
+
+
+.gefao{
+  position: relative;
+  top: 45px;
+}
+.webd{
+  position: relative;
+  top: 55px;
+}
+
+
+
+.zachwe{
+  position: relative;
+  top: 45px;
+}
+.design{
+  position: relative;
+  top: 55px;
+}
+.serv{
+  position: relative;
+  top: -500px;
+  right: -700px;
+  background-color: antiquewhite;
+  color: #4ef973;
+  width: 110px;
+  height: 30px;
+}
+.ficha{
+  position: relative;
+  top: -495px;
+  right: -650px;
+}
+.round{
+  height: 90px;
+  width: 90px;
+  border-radius: 50px;
+  border: solid 2px;
+  display: inline-block;
+  border-color: #4ef973;
+  position: relative;
+  left: -100px;
+  top: 20px;
+ 
+}
+.prov{
+  position: relative;
+  left: 600px;
+  top: -480px;
+}
+
+.services{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-left: -inherit;
+  position: relative;
+  top: -400px;
+  height: 400px;
+}
+
+ 
+.container{
+  background-color: rgb(239, 243, 239);
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  box-shadow: #000;
+  border-radius: 14px;
+  
+
+}
+.container:hover{
+  background-color: green;
+  color: white;
+  transition: all ease-in-out, 0.5s;
+  border: 1px solid var(--main-color);
+}
+
+.mor{
+  position: relative;
+  top: 100px;
+  left: -90px;
+  height: 30px;
+  width: 100px;
+
+}
+.prog{
+  width: 230px;
+  height: 5px;
+  border: none;
+  background-color:gray;
+
+}
+.prog::-moz-progress-bar{
+  background-color: green;
+  
+}
+.mor{
+  
+  columns: var(--main-color);
+  transition: all ease-in-out, 0.5s;
+}
+
+.p{
+  position: relative;
+  top: 70px;
+  left: 4px;
+}
+.dot{
+  position: relative;
+  top: 60px;
+  left: -130px;
+  color: #4ef973;
+}
+.ign{
+  position: relative;
+  top: 40px;
+  left: -30px;
+}
+
+.tic{
+  position: relative;
+  left: 110px;
+  bottom: -40px;
+
+}
+.ho{
+  position: relative;
+  top: -750px;
+  left: 1060px;
+  z-index: -10;
+}
+.skill{
+  position: relative;
+  top: -700px;
+  background-color: aliceblue;
+  color: #4ef973;
+  position: relative;
+  left: 40px;
+  width: 100px;
+}
+.expert{
+  position: relative;
+  top: -700px;
+  left: 20px;
+}
+.reme{
+  position: relative;
+  top: -750px;
+  left: 1200px;
+  height: 50px;
+  width: 100px;
+  background-color: antiquewhite;
+  color: #4ef973;
+  border-radius: 10px;
+
+
+}
+.reme:hover{
+  background-color: green;
+  color: white;
+  transition: all ease-in-out, 0.5s;
+  border: 1px solid var(--main-color);
+
+}
+.label{
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+  margin-left: -inherit;
+  position: relative;
+  bottom: 700px;
+  left: 30px;
+  
+
+}
+.folo{
+  position: relative;
+  bottom: 830px;
+  left: 600px;
+  background-color: antiquewhite;
+  color: #4ef973;
+  width: 90px;
+}
+.my{
+  position: relative;
+  bottom:800px;
+  left: 550px;
+}
+.all{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+  position: relative;
+  top: -1350px;
+  left: 500px;
+  
+}
+.img{
+  display: flex;
+  flex-direction: row;
+  gap: -1rem;
+  position: relative;
+  left: 100px;
+  top: -1900px;
+
+}
+.img1{
+  display: flex;
+  flex-direction: row;
+  gap: -1rem;
+  position: relative;
+  left: 100px;
+  top: -1990px;
+
+}
+.lop{
+  position: relative;
+  left: 406px;
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  color: #4ef973;
+  top: -505px;
+  
+}
+.pol{
+  position: relative;
+  right:400px;
+  top: -0px;
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  color: #4ef973;
+  opacity: 0;
+}
+.zte{
+  display: flex;
+  flex-direction: row;
+}
+.comp{
+
+}
+.zote{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: -380px;
+}
+.zoote{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: -750px;
+}
+.pol:hover{
+  background-color: green;
+  color: white;
+  transition: all ease-in-out, 0.5s;
+  border: 1px solid var(--main-color);
+  opacity: 60%;
+
+}
+
+.lop:hover{
+  background-color: green;
+  color: white;
+  transition: all ease-in-out, 0.5s;
+  border: 1px solid var(--main-color);
+
+}
+.now{
+  height: 50px;
+  width: 150px;
+}
+.src{
+  position: relative;
+  left: 810px;
+  top: -1005px;
+}
+.view{
+  height: 50px;
+  width: 150px;
+  position: relative;
+  left: 630px;
+  top: -2000px;
+}
+.view:hover{
+  background-color: green;
+  color: white;
+  transition: all ease-in-out, 0.5s;
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  
+}
+.moh{
+  position: relative;
+  top: -1900px;
+  right: 70px;
+}
+.test{
+  position: relative;
+  top: -2180px;
+  left: 600px;
+  background-color: antiquewhite;
+  color: #4ef973;
+  width: 120px;
+}
+.says{
+  position: relative;
+  top: -2155px;
+  left: 570px;
+}
+.marks{
+  position: relative;
+  top: -2150px;
+  left: 670px;
+  height: 200px;
+  width: 200px;
+  color: #4ef973;
+
+}
+.arrows{
+  display: flex;
+  flex-direction: row;
+  gap: 70rem;
+  position: relative;
+  top: -2200px;
+  left: 100px;
+  color: #4ef973;
+}
+.lorem{
+  position: relative;
+  top: -2300px;
+  left: 500px;
+}
+.doe{
+  position: relative;
+  top: -2250px;
+  left: 640px;
+}
+.ceo{
+  position: relative;
+  top: -2240px;
+  left: 625px;
+}
+.blog{
+  
+  position: relative;
+  top: -1840px;
+  left: 650px;
+  background-color: antiquewhite;
+  color: #4ef973;
+  width: 55px;
+}
+.Trendy{
+  position: relative;
+  top: -1830px;
+  left: 565px;
+}
+
+.din{
+  position: relative;
+  top: -2350px;
+  left: 70px;
+}
+.octo{
+   color: green;
+   position: relative;
+   top: 30px;
+   left: 20px;
+}
+.dash{
+  color: green;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.Ton{
+  color: green;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.mb{
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.ipsum{
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.kent{
+  height: 300px;
+  width: 400px;
+  background-color: var(--white);
+  border-radius: 15px;
+  position: relative;
+  top: -2390px;
+  left: 70px;
+
+}
+.reel{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: -inherit;
+  position: relative;
+  top: -190px;
+  
+}
+.ard{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: -inherit;
+}
+.iew{
+  height: 60px;
+  width: 200px;
+  align-content: center;
+  position: relative;
+  top: -2850px;
+  left: 600px;
+}
+.iew:hover{
+  background-color: green;
+  color: white;
+  transition: all ease-in-out, 0.5s;
+  border-radius: 30px;
+  border: none;
+
+}
+.cont{
+  background-color: antiquewhite;
+  color: green;
+  width: 110px;
+  position: relative;
+  top: -2750px;
+  left: 650px;
+} 
+.send{
+  position: relative;
+  top: -2750px;
+  left: 590px;
+
+}
+.mail{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: -inherit;
+
+}
+.name{
+  height: 70px;
+  width: 400px;
+  position: relative;
+  top: -2700px;
+  left: 290px;
+}
+.sage{
+   position: relative;
+   top: -2700px;
+   left: 290px;
+   height: 200px;
+   width: 835px;
+}
+.mes{
+  height: 60px;
+  width: 200px;
+  border-radius: 10px;
+  position: relative;
+  top: -2650px;
+  left: 600px;
+}
+.mes:hover{
+  background-color: green;
+  color: white;
+  transition: all ease-in-out, 0.5s;
+  border: 1px solid var(--main-color);
+
+}
+.sas{
+  position: relative;
+  top: -2999px;
+  left: 1200px;
+}
+.pot{
+  color: black;
+  
+}
+.foli{
+  background-color: green;
+  color: white;
+}
+.pofo{
+  position: relative;
+  top: -2600px;
+  left: 50px;
+  height: 100px;
+}
+.Apart{
+  position: relative;
+  top: -2730px;
+  left: 810px;
+}
+.sent{
+  color: green;
+}
+.make{
+  color: green;
+}
+.get{
+  color: green;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  margin-left: -inherit;
+  position: relative;
+  top: -2680px;
+  left: 730px;
+}
+.inky{
+  position: relative;
+  top: -2830px;
+  left: 600px;
+}
+footer{
+  height: 100px;
+  border: solid 1px rgb(11, 12, 11);
+  margin-top: 20px;
+  position: relative;
+  top: -2900px;
+}
